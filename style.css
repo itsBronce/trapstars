@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif; /* Cambiar a Arial o cualquier fuente más moderna */
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -9,48 +9,48 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-  background-size: cover; /* Para que las imágenes de fondo cubran toda la página */
+  background-size: cover; 
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
-  border-radius: 20px; /* Bordes redondeados */
-  padding: 10px 20px; /* Espaciado interno */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+  background-color: rgba(0, 0, 0, 0.8); 
+  border-radius: 20px; 
+  padding: 10px 20px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
   position: fixed;
-  top: 20px; /* Espacio desde la parte superior */
+  top: 20px; 
   left: 50%;
-  transform: translateX(-50%); /* Centrar horizontalmente */
-  z-index: 1000; /* Asegurarse de que esté encima del contenido */
+  transform: translateX(-50%); 
+  z-index: 1000; 
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Cambiar a flex para que se alineen en una fila */
+  display: flex; 
 }
 
 nav ul li {
-  margin: 0 15px; /* Espaciado entre los elementos */
+  margin: 0 15px; 
 }
 
 nav ul li a {
   color: white;
   padding: 14px 20px;
   text-decoration: none;
-  font-size: 20px; /* Tamaño de fuente del menú */
-  transition: all 0.3s ease; /* Transición suave */
+  font-size: 20px;
+  transition: all 0.3s ease; 
 }
 
 nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
-  border-radius: 5px; /* Bordes redondeados al hacer hover */
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 5px; 
 }
 
 h1 {
-  font-size: 200px; /* Tamaño de texto grande */
-  margin: 20px 0; /* Margen alrededor del título */
+  font-size: 200px; 
+  margin: 20px 0; 
   color: white;
 }
 
@@ -62,11 +62,11 @@ footer {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  padding: 10px 0; /* Espacio interno */
+  padding: 10px 0; 
 }
 
 .page {
-  height: calc(100vh - 100px); /* Altura restante de la página, menos el menú y pie de página */
+  height: calc(100vh - 100px); 
   display: flex;
   color: white;
   justify-content: center;
