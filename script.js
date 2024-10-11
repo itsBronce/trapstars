@@ -1,5 +1,4 @@
-// Cargar el menú desde el archivo JSON
-fetch('menu.json')
+ fetch('menu.json')
     .then(response => response.json())
     .then(data => {
         const menu = document.getElementById('menu');
